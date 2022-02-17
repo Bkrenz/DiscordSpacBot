@@ -47,7 +47,7 @@ namespace DiscordSpacBot
             await _commandHandler.InstallCommandsAsync();
 
             // TODO: Move this to somewhere safe
-            var token = "ODA3MjA5NTQyMTk4MDk5OTk5.YB0qeA.7Gp1A-FeI5S_RxR4Gu4KNup-AiM";
+            var token = "insert-token";
 
             // Log the bot in and start it
             await _client.LoginAsync(TokenType.Bot, token);
